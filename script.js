@@ -70,20 +70,3 @@ function display(value){
     }
 }
 
-// const subscriberCount= document.getElementById('Subscriberid');
-// const viewCount = document.getElementById('views');
-// const videoCount = document.getElementById('videocount');
-
-// let getData = () => {
-//     fetch(`https://www.googleapis.com/youtube/v3/channels?part=statistics&id=${''}&key=${api_key}`)
-//     .then(response => {
-//         return response.json()
-//     })
-//     .then(data => {
-//         console.log(data);
-//         subscriberCount.value = data["items"][0].statistics.subscriberCount;
-//         viewCount.value = data["items"][0].statistics.viewCount;
-//         videoCount.value = data["items"][0].statistics.videoCount;  
-//     })
-// }
-// getData();
